@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
   compile 'com.google.guava:guava:18.0'
+  compile 'com.offbytwo.jenkins:jenkins-client:0.3.8'
 }
 
 task sourcesJar(type: Jar, dependsOn: classes) {
